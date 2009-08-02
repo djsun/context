@@ -3,7 +3,6 @@ module Context
     def self.create_from_behavior(beh) # :nodoc:
       mod = self.new
       mod._behavior = beh
-      
       mod
     end
   
@@ -11,8 +10,8 @@ module Context
       @_behavior = beh
     end
   
-    def included(arg) # :nodoc:
-      @_behavior.call
+    def included(including_module) # :nodoc:
+      including_module.class_eval(&@_behavior)
     end
   end
 end

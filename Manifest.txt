@@ -26,4 +26,5 @@ test/test_helper.rb
 test/test_lifecycle.rb
 test/test_nested_lifecycle.rb
 test/test_shared.rb
+test/test_shared_lifecycle.rb
 test/test_test.rb

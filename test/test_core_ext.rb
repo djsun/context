@@ -17,5 +17,9 @@ class TestCoreExt < Test::Unit::TestCase
     it "should change dangerous punctuation to _" do
       assert_equal "no_really_this_was_good_", "No, really; this was #good!".to_method_name
     end
+
+    it "should change ? to _" do
+      assert_equal "are_you_sure_yes_", "Are you sure? Yes.".to_method_name
+    end
   end
 end

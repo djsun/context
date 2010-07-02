@@ -1,2 +1,2 @@
 require 'test/unit'
-require File.dirname(__FILE__) + '/../lib/context'
+require File.dirname(__FILE__) + '/../lib/tu-context'

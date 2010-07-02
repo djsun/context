@@ -1,5 +1,6 @@
 = tu-context – Adds context blocks for Test::Unit
 
+http://github.com/djsun/context
 http://github.com/jeremymcanally/context
 
 == DESCRIPTION:
@@ -155,4 +156,4 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 == ACKNOWLEDGEMENTS:
 
-Original implementation by Jeremy McAnally, but heavily tweaked and borrowed from Rails Core and Pratik Naik.
+Original implementation by Jeremy McAnally, but heavily tweaked and borrowed from Rails Core and Pratik Naik. Repackaged as the tu-context gem by David James after pulling together various Github forks.

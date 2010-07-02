@@ -155,4 +155,4 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 == ACKNOWLEDGEMENTS:
 
-Original implementation by myself, but heavily tweaked and borrowed from Rails Core and Pratik Naik.
+Original implementation by Jeremy McAnally, but heavily tweaked and borrowed from Rails Core and Pratik Naik.

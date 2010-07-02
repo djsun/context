@@ -5,11 +5,11 @@ class TestCoreExt < Test::Unit::TestCase
     it "should be converted to method name" do
       assert_equal "this_is_fun", "this is fun".to_method_name
     end
-    
+
     it "should be downcased when converted" do
       assert_equal "this_is_a_blast", "THIS is A BlASt".to_method_name
     end
-    
+
     it "should change spaces to _" do
       assert_equal "this_has_been_great", "This has been great".to_method_name
     end

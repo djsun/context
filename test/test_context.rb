@@ -15,10 +15,10 @@ class TestContext < Test::Unit::TestCase
     context "when not nested" do
       before do
         @context = Class.new(Test::Unit::TestCase).context("When testing") do
-                    def test_this_thing
-                      true
-                    end
-                  end
+          def test_this_thing
+            true
+          end
+        end
       end
 
       it "should set the context name" do

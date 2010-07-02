@@ -50,7 +50,7 @@ Gem::Specification.new do |s|
      "test/test_shared_lifecycle.rb",
      "test/test_test.rb"
   ]
-  s.homepage = %q{http://github.com/djsun/tu-context}
+  s.homepage = %q{http://github.com/djsun/context}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}

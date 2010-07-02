@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Adds context blocks for Test::Unit}
     gem.description = %Q{If you've ever wanted contexts in your Test::Unit tests, then context is for you.  Your tests will be easier to read and write without all the magic and extra code smell!}
     gem.email = "jeremymcanally@gmail.com"
-    gem.homepage = "http://github.com/djsun/tu-context"
+    gem.homepage = "http://github.com/djsun/context"
     gem.authors = ["Jeremy McAnally", "Rails Core", "Pratik Naik"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

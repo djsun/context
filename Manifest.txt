@@ -4,8 +4,6 @@ Manifest.txt
 PostInstall.txt
 README.rdoc
 Rakefile
-config/hoe.rb
-config/requirements.rb
 context.gemspec
 countloc.rb
 lib/context.rb

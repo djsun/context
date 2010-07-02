@@ -25,8 +25,6 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "config/hoe.rb",
-     "config/requirements.rb",
      "context.gemspec",
      "countloc.rb",
      "lib/context.rb",

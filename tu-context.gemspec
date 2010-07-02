@@ -18,15 +18,10 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
      ".gitignore",
-     "History.txt",
      "License.txt",
-     "Manifest.txt",
-     "PostInstall.txt",
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "context.gemspec",
-     "countloc.rb",
      "lib/context.rb",
      "lib/context/context.rb",
      "lib/context/core_ext/rails_hacks.rb",
@@ -36,7 +31,6 @@ Gem::Specification.new do |s|
      "lib/context/suite.rb",
      "lib/context/test.rb",
      "lib/context/version.rb",
-     "setup.rb",
      "tasks/deployment.rake",
      "tasks/environment.rake",
      "test/test_context.rb",
@@ -46,7 +40,8 @@ Gem::Specification.new do |s|
      "test/test_nested_lifecycle.rb",
      "test/test_shared.rb",
      "test/test_shared_lifecycle.rb",
-     "test/test_test.rb"
+     "test/test_test.rb",
+     "tu-context.gemspec"
   ]
   s.homepage = %q{http://github.com/djsun/context}
   s.rdoc_options = ["--charset=UTF-8"]
